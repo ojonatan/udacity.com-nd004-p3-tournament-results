@@ -58,11 +58,12 @@ The module supports multiple tournaments. If you wish for a
 
 ## Files included
 
-* `tournament.py (md5: 0746e7ca9de31f7acc0db7a1db0d5164)`
-* `tournament.sql (md5: 8f285eb4250b7466caf262f0ae4eed29)`
-* `tournament_test.py (md5: 7f67161e1a890c968dd78cf6f0b68e0d)`
-* `README.md-template (md5: 14d1a265f3ba8020487b256bd4af0297)`
+* `tournament.py (md5: 800fee6b0da20dfc323f64b9600d7e3c)`
+* `tournament.sql (md5: b1517bc363c6c21210630c7f76e3e032)`
+* `tournament_test.py (md5: 3cbee77924d9fa6623fe9ac68b8fe9f8)`
+* `tournament_test_multi_tournaments.py (md5: a7c31d99530832fdb570eca8823e3689)`
+* `README.md-template (md5: 3846df3b2ecc707ef0ff36e523b4587e)`
 
 ## Version
 
-2017-03-28T22:40:08.048000
+2017-03-28T22:44:03.966000

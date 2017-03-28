@@ -88,7 +88,7 @@ def deleteMatches(tournament = False):
     """Remove all the match records from the database."""
 
     execQueryAndCommit(
-        r"DELETE FROM match USING match_player WHERE match.t_id = %s AND match.m_id = match_player.m_id",
+        "DELETE FROM match USING match_player WHERE match.t_id = %s AND match.m_id = match_player.m_id",
         **{
             "parms": (tournament,),
             "tournament": tournament
@@ -99,7 +99,7 @@ def deletePlayers(tournament = False):
     """Remove all the player records from the database."""
 
     execQueryAndCommit(
-        r"DELETE FROM player WHERE t_id = %s",
+        "DELETE FROM player WHERE t_id = %s",
         **{
             "parms": (tournament,),
             "tournament": tournament

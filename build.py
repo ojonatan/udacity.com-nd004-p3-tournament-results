@@ -15,6 +15,7 @@ files = [
     'tournament.py',
     'tournament.sql',
     'tournament_test.py',
+    'tournament_test_multi_tournaments.py',
     'README.md-template'
 ]
 
